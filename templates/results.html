@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Results for {{ filename }}</h1>
+
+        <h2>Tasks and Subtasks:</h2>
+        {% if tasks_and_subtasks %}
+            <ul style="list-style-type: disc;">
+                {% for task, subtasks in tasks_and_subtasks.items() %}
+                    <li>
+                        <strong>{{ task }}</strong>
+                        {% if subtasks %}
+                            <ul style="list-style-type: circle; margin-left: 20px;">
+                                {% for subtask in subtasks %}
+                                    <li>{{ subtask }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            <em>No subtasks found for this task.</em>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No tasks were identified.</p>
+        {% endif %}
+
+        <h2>Non-Functional Requirements (NFRs):</h2>
+        {% if nfrs %}
+            <ul style="list-style-type: disc;">
+                {% for nfr in nfrs %}
+                    <li>{{ nfr }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No NFRs were identified.</p>
+        {% endif %}
+
+        <a href="/">Upload Another File</a>
+    </div>
+</body>
+</html>
