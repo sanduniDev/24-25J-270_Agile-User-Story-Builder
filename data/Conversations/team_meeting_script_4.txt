@@ -1,0 +1,19 @@
+**Accessibility Workshop: Making the App Inclusive**
+
+**Facilitator:** Welcome, everyone. Let’s focus on accessibility improvements today.
+
+**Developer:** I suggest implementing screen reader compatibility.
+
+**Designer:** We could also use high-contrast themes for better visibility.
+
+**QA Lead:** Let’s test with users who have disabilities to ensure real-world usability.
+
+**Facilitator:** Excellent. Any thoughts on navigation?
+
+**Developer:** Keyboard shortcuts would help users with mobility challenges.
+
+**Designer:** And adding captions to all multimedia content is essential.
+
+**Facilitator:** Great suggestions. Let’s prioritize these in the next development cycle.
+
+**All:** Agreed!

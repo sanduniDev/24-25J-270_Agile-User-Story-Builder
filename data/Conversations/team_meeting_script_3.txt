@@ -1,0 +1,15 @@
+**Feature Brainstorming: Simplifying Onboarding**
+
+**Product Manager:** Thanks for joining. Today’s focus is on simplifying user onboarding.
+
+**UX Designer:** Let’s create an interactive walkthrough for first-time users.
+
+**Developer:** We can also use tooltips that explain features as users navigate.
+
+**Tester:** Don’t forget to test for different levels of tech-savviness. Some users might need more guidance.
+
+**Product Manager:** Great points. Let’s also include a feedback button during onboarding so users can report issues.
+
+**UX Designer:** I’ll design a prototype for review next week.
+
+**All:** Looking forward to it!
