@@ -39,7 +39,7 @@ The Agile User Story Builder is designed with four core components, each address
 
 The following diagram illustrates the system architecture of the Agile User Story Builder:
 
-(Screenshot%202[Screenshot 2024-12-07 175335](https://github.com/user-attachments/assets/002c6e3a-6617-43dd-b066-23aab6118451)
+![System Architecture](https://github.com/user-attachments/assets/002c6e3a-6617-43dd-b066-23aab6118451)
 
 
 ---
