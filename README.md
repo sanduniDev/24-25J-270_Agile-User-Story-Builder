@@ -11,10 +11,19 @@ Welcome to the Agile User Story Builder project repository. This project aims to
 The Agile User Story Builder is designed with four core components, each addressing a specific aspect of the user story creation and prioritization process:
 
 ### **Component 1: Data Capture and Initial Processing**
-- Captures formal conversations between stakeholders.
-- Processes audio using custom algorithms to remove noise and applies advanced NLP techniques.
-- Utilizes neural networks to identify and categorize requirements into functional and non-functional components.
-- Outputs the processed data as structured user story text.
+- Captures real-time software development conversations from stakeholders as audio input in WAV format.
+- Utilizes Azure Speech-to-Text for accurate transcription and converts spoken requirements into structured text.
+- Applies BERT-based NLP models for high-precision requirement classification, distinguishing between functional and non-functional requirements.
+- Employs Retrieval-Augmented Generation (RAG) to enhance contextual understanding by retrieving relevant knowledge from a unified repository.
+- Uses the T5 transformer model to generate structured user stories, ensuring clarity and completeness.
+- Integrates generative AI-powered visualization to represent user stories intuitively for better stakeholder understanding.
+
+  ## System Diagram
+
+![System Diagram](image.png)
+
+
+**GitHub Repository:** [Component 1](https://github.com/sanduniDev/24-25J-270_Agile-User-Story-Builder/tree/Sathsarani-H.E.S)
 
 ### **Component 2: Task Identification and Categorization**
 - Uses the generated textual user stories to identify tasks.
@@ -22,10 +31,15 @@ The Agile User Story Builder is designed with four core components, each address
 - Builds an ML model for categorizing tasks and non-functional requirements.
 - Segregates tasks for effective project tracking and management.
 
+  **GitHub Repository:** [Component 2](https://github.com/sanduniDev/24-25J-270_Agile-User-Story-Builder/tree/Jasinge-Y.s)
+
 ### **Component 3: Predictive Analytics for Feedback and Project Timeline**
 - Develops ML models to predict feedback, timelines, and budgets based on user stories.
 - Uses custom algorithms to enhance the accuracy of predictions.
 - Visualizes predictions and analytics on a separate dashboard for clients and developers.
+
+  
+**GitHub Repository:** [Component 3](https://github.com/sanduniDev/24-25J-270_Agile-User-Story-Builder/tree/Jonekkuhewa-R.R)
 
 ### **Component 4: User Story Prioritization**
 - Applies the MoSCoW prioritization method (Must, Should, Could, Won't).
@@ -33,13 +47,16 @@ The Agile User Story Builder is designed with four core components, each address
 - Allows real-time prioritization updates based on stakeholder inputs.
 - Displays the prioritized backlog on an interactive dashboard.
 
+  **GitHub Repository:** [Component 4](https://github.com/sanduniDev/24-25J-270_Agile-User-Story-Builder/tree/Waidyasekara-D.S.H)
+
 ---
 
 ## System Architecture
 
 The following diagram illustrates the system architecture of the Agile User Story Builder:
 
-[Screenshot 2024-12-07 175335](https://github.com/user-attachments/assets/002c6e3a-6617-43dd-b066-23aab6118451)
+![System Architecture](https://github.com/user-attachments/assets/002c6e3a-6617-43dd-b066-23aab6118451)
+
 
 
 ---
@@ -65,9 +82,9 @@ The following diagram illustrates the system architecture of the Agile User Stor
 ## Installation and Setup
 To set up the project locally, follow these steps:
 1. Clone the repository.
-2. Install the required dependencies from the `requirements.txt` file.
-3. Configure API keys for speech-to-text and cloud services in the `.env` file.
-4. Run the application using the command: `python app.py`.
+2. Install the required dependencies from the requirements.txt file.
+3. Configure API keys for speech-to-text and cloud services in the .env file.
+4. Run the application using the command: python app.py.
 
 ---
 
@@ -84,4 +101,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Acknowledgments
 - Faculty of Computing, SLIIT
 - Research Supervisors and Mentors
-- Stakeholders who participated in the testing phase
+- Stakeholders who participated in the testing phase 
