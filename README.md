@@ -24,7 +24,7 @@ By combining advanced AI-driven predictions with Agile best practices, the Colla
 
 ## System Architecture
 
-The following diagram illustrates the system architecture of the Agile User Story Builder:
+The following diagram illustrates the system architecture of the Agile User Story Builder: [Click Here to View Diagram](https://drive.google.com/file/d/15by5uwhbV7NPTGWbXtKYL3ev6Bra8_Zk/view?usp=drive_link/)
 
 
 
