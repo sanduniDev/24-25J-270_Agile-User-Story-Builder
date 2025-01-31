@@ -22,10 +22,10 @@ This component extracts, identifies, and categorizes tasks and non-functional re
 
 ## System Architecture
 
-The following diagram illustrates the system architecture of the Agile User Story Builder:
+The following diagram illustrates the system architecture of the Agile User Story Builder:[Click Here to View]([https://pages.github.com/](https://drive.google.com/file/d/1c32_GP-WuX-dX_VAARy7qzemaC3o61Ax/view?usp=sharing))
 
 
-https://drive.google.com/file/d/1c32_GP-WuX-dX_VAARy7qzemaC3o61Ax/view?usp=sharing
+
 
 
 ---
