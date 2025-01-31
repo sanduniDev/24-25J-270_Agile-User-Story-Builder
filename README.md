@@ -6,32 +6,19 @@ Welcome to the Agile User Story Builder project repository. This project aims to
 
 ---
 
-## Overview of the System Components
+## Overview of the Component 3
 
-The Agile User Story Builder is designed with four core components, each addressing a specific aspect of the user story creation and prioritization process:
+The Collaborative Agile Dashboard is an intelligent project management tool designed to enhance Agile workflows by integrating real-time feedback analysis and data-driven time-budget predictions. This system leverages machine learning models, including Random Forest algorithms and Natural Language Processing (NLP) for sentiment analysis, ensuring accurate estimations and improved decision-making in Agile teams.
 
-### **Component 1: Data Capture and Initial Processing**
-- Captures formal conversations between stakeholders.
-- Processes audio using custom algorithms to remove noise and applies advanced NLP techniques.
-- Utilizes neural networks to identify and categorize requirements into functional and non-functional components.
-- Outputs the processed data as structured user story text.
+One of its key features is experience-based timeline prediction, which dynamically adjusts time estimations based on team expertise levels, ensuring adaptability to varying team compositions. The dashboard also incorporates real-time sentiment analysis, allowing feedback loops to refine project timelines and priorities. By analyzing historical project data and team dynamics, the system optimizes budget allocation and minimizes the risk of delays or misallocations.
 
-### **Component 2: Task Identification and Categorization**
-- Uses the generated textual user stories to identify tasks.
-- Implements a custom algorithm to classify tasks and requirements.
-- Builds an ML model for categorizing tasks and non-functional requirements.
-- Segregates tasks for effective project tracking and management.
+The platform provides interactive visualization tools, offering Agile teams an intuitive way to manage user stories, track project progress, and prioritize tasks. Seamless integration with Azure Speech-to-Text enables voice-based user story creation, streamlining requirement documentation.
 
-### **Component 3: Predictive Analytics for Feedback and Project Timeline**
-- Develops ML models to predict feedback, timelines, and budgets based on user stories.
-- Uses custom algorithms to enhance the accuracy of predictions.
-- Visualizes predictions and analytics on a separate dashboard for clients and developers.
+The dashboard is built using Python for machine learning, Scikit-Learn for predictive modeling, and React or Angular for the frontend interface. It supports integration with popular Agile tools like JIRA, GitHub, and Azure DevOps, enhancing collaboration and workflow efficiency.
 
-### **Component 4: User Story Prioritization**
-- Applies the MoSCoW prioritization method (Must, Should, Could, Won't).
-- Pre-processes data and uses ML models to rank user stories.
-- Allows real-time prioritization updates based on stakeholder inputs.
-- Displays the prioritized backlog on an interactive dashboard.
+By combining advanced AI-driven predictions with Agile best practices, the Collaborative Agile Dashboard empowers development teams with precise estimations, real-time insights, and improved project adaptability, ultimately driving efficiency and success in software development lifecycle management.
+
+
 
 ---
 
@@ -39,23 +26,22 @@ The Agile User Story Builder is designed with four core components, each address
 
 The following diagram illustrates the system architecture of the Agile User Story Builder:
 
-(Screenshot%202![Screenshot 2024-12-07 175335](https://github.com/user-attachments/assets/002c6e3a-6617-43dd-b066-23aab6118451)
 
 
 ---
 
 ## Key Features
-1. **Automated Conversation Capture**: Transforms verbal stakeholder communications into structured text.
-2. **Advanced NLP Processing**: Leverages NLP and neural networks for requirement categorization.
-3. **Dynamic Prioritization**: Real-time adjustment of user story priorities.
-4. **Predictive Analytics**: Models to predict project impacts on time, cost, and scope.
-5. **Interactive Dashboard**: Allows developers and stakeholders to monitor progress and refine priorities.
+1. **Experience-Based Timeline Prediction**: Dynamically adjusts time estimations based on team composition, considering expertise levels..
+2. **Real-Time Sentiment Analysis**: Integrates feedback loops to refine predictions and enhance project adaptability..
+3. **Machine Learning-Driven Estimations**: Utilizes Random Forest models and historical project data for improved budget and time accuracy.
+4. **Agile-Friendly Dashboard**: rovides intuitive visualization for tracking user stories, tasks, and project progress..
+5. **Interactive Dashboard**: Helps Agile teams reduce misallocations and delays by offering data-driven insights.
 
 ---
 
 ## Technologies Used
-- **Speech-to-Text APIs**: Amazon Transcribe, Azure Cognitive Services
-- **Machine Learning Frameworks**: TensorFlow, PyTorch
+- **Python**:for ML models
+- **Scikit-Learn**: TensorFlow, PyTorch
 - **Natural Language Processing**: Tokenization, Lemmatization, Sentiment Analysis
 - **Web Technologies**: React, Flask, Node
 - **Visualization Tools**: Plotly, Dash
