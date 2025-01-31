@@ -10,11 +10,7 @@ Welcome to the Agile User Story Builder project repository. This project aims to
 
 The Agile User Story Builder is designed with four core components, each addressing a specific aspect of the user story creation and prioritization process:
 
-### **Component 1: Data Capture and Initial Processing**
-- Captures formal conversations between stakeholders.
-- Processes audio using custom algorithms to remove noise and applies advanced NLP techniques.
-- Utilizes neural networks to identify and categorize requirements into functional and non-functional components.
-- Outputs the processed data as structured user story text.
+
 
 ### **Component 2: Task Identification and Categorization**
 - Uses the generated textual user stories to identify tasks.
@@ -22,17 +18,7 @@ The Agile User Story Builder is designed with four core components, each address
 - Builds an ML model for categorizing tasks and non-functional requirements.
 - Segregates tasks for effective project tracking and management.
 
-### **Component 3: Predictive Analytics for Feedback and Project Timeline**
-- Develops ML models to predict feedback, timelines, and budgets based on user stories.
-- Uses custom algorithms to enhance the accuracy of predictions.
-- Visualizes predictions and analytics on a separate dashboard for clients and developers.
-
-### **Component 4: User Story Prioritization**
-- Applies the MoSCoW prioritization method (Must, Should, Could, Won't).
-- Pre-processes data and uses ML models to rank user stories.
-- Allows real-time prioritization updates based on stakeholder inputs.
-- Displays the prioritized backlog on an interactive dashboard.
-
+This component extracts, identifies, and categorizes tasks and non-functional requirements (NFRs) from user stories, ensuring efficient project tracking and management. It leverages a custom-trained Random Forest Classifier for accurate classification of tasks and subtasks, while TF-IDF vectorization ensures high-precision text feature extraction. Regex-based sentence segmentation enables structured task organization, supported by text preprocessing for cleaning and normalization. The system differentiates between functional and non-functional requirements, segregating tasks for streamlined workflow management. Additionally, it assigns specific roles to each subtask to ensure clear responsibility allocation, facilitating seamless integration with project tracking tools. The process involves text preprocessing to remove noise, feature extraction using TF-IDF, task segmentation through regex-based sentence structuring, and classification via the Random Forest model. Finally, predefined role mappings ensure that tasks are allocated appropriately within project management systems. By leveraging these methodologies, the component enhances task identification, classification, and assignment, optimizing project efficiency and execution.
 ---
 
 ## System Architecture
