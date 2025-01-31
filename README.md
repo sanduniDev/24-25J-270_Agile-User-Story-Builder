@@ -18,7 +18,7 @@ The Agile User Story Builder is designed with four core components, each address
 - Uses the T5 transformer model to generate structured user stories, ensuring clarity and completeness.
 - Integrates generative AI-powered visualization to represent user stories intuitively for better stakeholder understanding.
 
-  ## System Diagram
+### System Diagram
 
 ![System Diagram](image.png)
 
