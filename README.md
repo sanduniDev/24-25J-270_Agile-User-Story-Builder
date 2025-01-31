@@ -19,7 +19,6 @@ The Agile User Story Builder is designed with four core components, each address
 - Segregates tasks for effective project tracking and management.
 
 This component extracts, identifies, and categorizes tasks and non-functional requirements (NFRs) from user stories, ensuring efficient project tracking and management. It leverages a custom-trained Random Forest Classifier for accurate classification of tasks and subtasks, while TF-IDF vectorization ensures high-precision text feature extraction. Regex-based sentence segmentation enables structured task organization, supported by text preprocessing for cleaning and normalization. The system differentiates between functional and non-functional requirements, segregating tasks for streamlined workflow management. Additionally, it assigns specific roles to each subtask to ensure clear responsibility allocation, facilitating seamless integration with project tracking tools. The process involves text preprocessing to remove noise, feature extraction using TF-IDF, task segmentation through regex-based sentence structuring, and classification via the Random Forest model. Finally, predefined role mappings ensure that tasks are allocated appropriately within project management systems. By leveraging these methodologies, the component enhances task identification, classification, and assignment, optimizing project efficiency and execution.
----
 
 ## System Architecture
 
