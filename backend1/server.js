@@ -118,7 +118,7 @@ app.post('/api/recompute', async (req, res) => {
     }
 });
 
-// Route to handle initial predictions
+// Route to handle initial predictionss
 app.post('/api/predict', async (req, res) => {
     const { projectId, story_texts } = req.body;
 
