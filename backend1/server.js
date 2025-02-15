@@ -57,7 +57,7 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch((error) => console.error('MongoDB connection error:', error));
 
 // Define Mongoose schemas and models
-const ProjectSchema = new mongoose.Schema({
+const ProjectSchema = new mongoose.Schema({ //dd
     projectId: String,
     stories: [
         {
