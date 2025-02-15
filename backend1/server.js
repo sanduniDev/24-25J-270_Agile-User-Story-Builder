@@ -48,7 +48,7 @@ const { v4: uuidv4 } = require('uuid'); // For unique project IDs
 
 const app = express();
 const PORT = 5000; // Node.js backend port
-const FLASK_API_URL = 'http://127.0.0.1:5000'; // Flask API base URL
+const FLASK_API_URL = 'http://127.0.0.1:5000'; // Flask API base UR
 
 // MongoDB connection
 const MONGO_URI = 'mongodb://localhost:27017/agile_dashboard';
